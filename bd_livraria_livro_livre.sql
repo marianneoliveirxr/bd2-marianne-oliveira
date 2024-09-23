@@ -5,7 +5,7 @@ show tables;
 drop database livraria;
 create table cliente
 	(
-		id_cliente int(5) auto_increment,
+	id_cliente int(5) auto_increment,
         nome varchar(50) not null,
         endereco varchar (20),
 	cep int(8),
